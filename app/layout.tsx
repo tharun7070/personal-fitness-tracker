@@ -8,7 +8,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'IRONLOG',
+  title: 'MONSTER FIT',
   description: 'Train with intent. Track what matters.',
   manifest: '/manifest.webmanifest',
   generator: 'v0.app',

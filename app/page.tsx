@@ -335,7 +335,7 @@ export default function Home() {
     const blob = new Blob([exportStore(store)], { type: "application/json" })
     const url = URL.createObjectURL(blob)
     const a = document.createElement("a")
-    a.href = url; a.download = `ironlog-backup-${today()}.json`; a.click()
+    a.href = url; a.download = `monster-fit-backup-${today()}.json`; a.click()
     URL.revokeObjectURL(url)
     notify("Backup downloaded")
   }
@@ -413,7 +413,7 @@ export default function Home() {
   return (
     <div className="app-shell">
       <header className="topbar">
-        <div className="brand"><span className="brand-mark">I</span><span>IRONLOG</span></div>
+        <div className="brand"><span className="brand-mark">M</span><span>MONSTER FIT</span></div>
         <div className="topbar-right"><span className="date-chip">{dateLabel}</span><CircleUserRound size={21} /></div>
       </header>
 
@@ -1157,7 +1157,7 @@ function SimpleModal({ title, value, setValue, placeholder, onSave, onClose }: a
     <div className="modal-backdrop">
       <div className="modal">
         <div className="modal-head">
-          <div><p className="eyebrow">IRONLOG</p><h2>{title}</h2></div>
+          <div><p className="eyebrow">MONSTER FIT</p><h2>{title}</h2></div>
           <button className="icon-button" onClick={onClose}><X size={20} /></button>
         </div>
         <input className="modal-input" autoFocus type={title.includes("weight") ? "number" : "text"} min="0" inputMode={title.includes("weight") ? "decimal" : "text"} value={value} onChange={e => setValue(e.target.value)} placeholder={placeholder} />

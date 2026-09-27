@@ -1,4 +1,4 @@
-# 🏋️‍♂️ IRONLOG — Personal Gym & Nutrition Tracker
+# 🏋️‍♂️ MONSTER FIT — Personal Gym & Nutrition Tracker
 
 > **Train with intent. Track what matters.**  
 > A fast, privacy-first personal fitness and nutrition tracking PWA built with Next.js, React, TypeScript, and Tailwind CSS. All data is persisted 100% locally with zero required logins, external servers, or tracking.
